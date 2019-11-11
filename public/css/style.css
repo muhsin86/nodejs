@@ -1,0 +1,9 @@
+*{box-sizing:border-box}
+body{
+font-family:Arial,Helvetica,sans-serif;background-color:white;}
+.container {width: 693px; padding: 20px; margin: 0 auto;}
+h1 { text-align: center; color: rgba(184, 6, 6, 0.575); font-variant-caps: petite-caps; border-bottom: 1px solid sienna;}
+td,th{text-align:left;padding:8px;background-color:hsl(147, 50%, 47%);}
+tr:nth-child(even){background-color:hsl(147, 50%, 47%);}
+th{background-color:#ff7b00;color:#080808}
+
