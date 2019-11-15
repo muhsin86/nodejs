@@ -17,5 +17,14 @@
     "mongodb": "^3.3.4",
     "mongoose": "^5.7.11",
     "nodemon": "^1.19.4"
-  }
+  },
+  "description": "Don't forget to install ---> npm install",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhsin86/nodejsAPI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/muhsin86/nodejsAPI/issues"
+  },
+  "homepage": "https://github.com/muhsin86/nodejsAPI#readme"
 }
