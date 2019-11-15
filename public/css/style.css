@@ -1,9 +1,19 @@
 *{box-sizing:border-box}
 body{
 font-family:Arial,Helvetica,sans-serif;background-color:white;}
-.container {width: 693px; padding: 20px; margin: 0 auto;}
-h1 { text-align: center; color: rgba(184, 6, 6, 0.575); font-variant-caps: petite-caps; border-bottom: 1px solid sienna;}
+.container {width: 838px; padding: 20px; margin: 0 auto;}
+h1 { text-align: center; background-color: rgb(58, 52, 52); color: rgba(255, 255, 255, 0.801); font-variant-caps: petite-caps; border-bottom: 3px solid rgba(255, 0, 0, 0.774);border-top: 5px solid rgba(255, 0, 0, 0.774);border-left: 2px solid
+rgba(255, 0, 0, 0.774); border-right: 2px solid rgba(255, 0, 0, 0.774);}
+/*INPUT FIELDS AND SUBMIT BUTTON*/
+input[type=text]{width: 28%;padding: 9px; background-color: #e5ecee;
+    border: 1px solid rgb(0, 0, 0);border-radius: 4px;resize: vertical;}
+  input[type=submit] {background-color: rgb(13, 102, 26);
+    color: white;padding: 10px;border: none;border-radius: 4px;cursor: pointer;}
+  input[type=submit]:hover { background-color: #000000;}
+  /*TABLE*/
 td,th{text-align:left;padding:8px;background-color:hsl(147, 50%, 47%);}
 tr:nth-child(even){background-color:hsl(147, 50%, 47%);}
 th{background-color:#ff7b00;color:#080808}
+/*FOOTER*/
+footer{background-color: #ff7b00;text-align:center; color: #e5ecee; padding: 10px 10px 10px 10px;}
 

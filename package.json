@@ -1,5 +1,5 @@
 {
-  "name": "moment-2-nodejs",
+  "name": "moment-3.3-nodejs",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
@@ -14,6 +14,8 @@
     "jsonfile": "^5.0.0"
   },
   "devDependencies": {
+    "mongodb": "^3.3.4",
+    "mongoose": "^5.7.11",
     "nodemon": "^1.19.4"
   }
 }
